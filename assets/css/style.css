@@ -387,33 +387,6 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
     #api h2 {
         font-size: 2rem;
     }
-
-    /* .static-content #api {
-        height: 40%;
-        transform: translate(-50%, -10%);
-    }
-
-    #api .social {
-        width: 60%;
-        left: 20%;
-    }
-
-    #api .localAccount .create {
-        width: 60%;
-    }
-
-    #api .localAccount .intro {
-        display: block;
-    }
-    
-    #api .localAccount .entry .entry-item{
-        width: 60%;
-    }
-
-    #api .localAccount .entry .buttons {
-        margin-top: 40px;
-        width: 60%;
-    } */
 }
 
 
