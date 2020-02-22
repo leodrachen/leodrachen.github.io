@@ -1,0 +1,175 @@
+
+/* ABEL - FONT */
+@font-face {
+    font-family: 'Abel';
+    src: url('../fonts/Abel/Abel-Regular.ttf') format('truetype');
+}
+
+/* CAIRO - FONT */
+@font-face {
+    font-family: 'Cairo';
+    src: url('../fonts/Cairo/Cairo-ExtraLight.ttf') format('truetype');
+    font-weight: 200, lighter;
+}
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('../fonts/Cairo/Cairo-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('../fonts/Cairo/Cairo-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('../fonts/Cairo/Cairo-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('../fonts/Cairo/Cairo-Bold.ttf') format('truetype');
+    font-weight: 700, bold;
+}
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('../fonts/Cairo/Cairo-Black.ttf') format('truetype');
+    font-weight: 900, bolder;
+}
+
+/* DIDACT GOTHIC - FONT */
+@font-face {
+    font-family: 'Didact Gothic';
+    src: url('../fonts/Didact_Gothic/DidactGothic-Regular.ttf') format('truetype');
+}
+
+/* DOSIS - FONT */
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis/Dosis-VariableFont:wght.ttf') format('truetype');
+}
+
+/* KHULA - FONT */
+@font-face {
+    font-family: 'Khula';
+    src: url('../fonts/Khula/Khula-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Khula';
+    src: url('../fonts/Khula/Khula-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Khula';
+    src: url('../fonts/Khula/Khula-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Khula';
+    src: url('../fonts/Khula/Khula-Bold.ttf') format('truetype');
+    font-weight: 700, bold;
+}
+
+@font-face {
+    font-family: 'Khula';
+    src: url('../fonts/Khula/Khula-ExtraBold.ttf') format('truetype');
+    font-weight: 800, bolder;
+}
+
+/* QUESTRIAL - FONT */
+@font-face {
+    font-family: 'Questrial';
+    src: url('../fonts/Questrial/Questrial-Regular.ttf') format('truetype');
+}
+
+/* QUICKSAND - FONT */
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand/Quicksand-VariableFont:wght.ttf') format('truetype');
+}
+
+
+/* MAIN CONTENT */
+html, body {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Abel', 'Cairo', 'Didact Gothic', 'Dosis', 'Khula', 'Questrial', 'Quicksand', Helvetica, Arial, sans-serif;
+}
+
+.static-content {
+    padding: 10px 0 0 0;
+    width: 100%;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.static-content h1 {
+    font-size: 2rem;
+}
+
+.static-content .login-image {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 10%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    transform: translate(-50%, 10%);
+}
+
+.login-image img{
+    width: 65%;
+}
+
+
+
+
+
+
+
+
+.test1{
+    font-family: 'Abel';
+}
+
+.test2{
+    font-family: 'Cairo';
+    font-weight: 300;
+}
+
+.test3{
+    font-family: 'Didact Gothic';
+}
+
+.test4{
+    font-family: 'Dosis';
+}
+
+.test5{
+    font-family: 'Khula';
+    font-weight: 300;
+}
+
+.test6{
+    font-family: 'Questrial';
+}
+
+.test7{
+    font-family: 'Quicksand';
+}
+
+.test8{
+    font-family: Helvetica;
+    font-weight: 100;
+}
