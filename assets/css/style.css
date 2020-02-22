@@ -142,7 +142,7 @@ button {
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    width: 90%;
+    width: 100%;
     -moz-user-select: none;
     -ms-touch-action: manipulation;
     -ms-user-select: none;
@@ -184,9 +184,11 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
 }
 
 .static-content {
+    position: relative;
     padding: 10px 0 0 0;
     width: 100%;
-    /* align-items: center; */
+    height: 100%;
+    overflow: hidden;
     text-align: center;
 }
 
@@ -321,7 +323,97 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
 }
 
 #api .localAccount .entry .buttons {
+    width: 90%;
+    margin: 0 auto;
     margin-top: 30px;
+}
+
+
+@media (min-width: 768px) {
+    .login-image img{
+        width: 55%;
+    }
+
+    .static-content #api {
+        height: 40%;
+        transform: translate(-50%, -10%);
+    }
+
+    #api .social {
+        width: 60%;
+        left: 20%;
+    }
+
+    #api .localAccount .create {
+        width: 60%;
+    }
+
+    #api .localAccount .intro {
+        display: block;
+    }
+    
+    #api .localAccount .entry .entry-item{
+        width: 60%;
+    }
+
+    #api .localAccount .entry .buttons {
+        margin-top: 40px;
+        width: 60%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .static-content .login-image {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        top: 50%;
+        left: 0;
+        transform: translate(10%, -50%);
+    }
+    
+    .login-image img{
+        width: 65%;
+    }
+
+    .static-content #api {
+        width: 50%;
+        height: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-10%, -50%);
+    }
+
+    #api h2 {
+        font-size: 2rem;
+    }
+
+    /* .static-content #api {
+        height: 40%;
+        transform: translate(-50%, -10%);
+    }
+
+    #api .social {
+        width: 60%;
+        left: 20%;
+    }
+
+    #api .localAccount .create {
+        width: 60%;
+    }
+
+    #api .localAccount .intro {
+        display: block;
+    }
+    
+    #api .localAccount .entry .entry-item{
+        width: 60%;
+    }
+
+    #api .localAccount .entry .buttons {
+        margin-top: 40px;
+        width: 60%;
+    } */
 }
 
 
