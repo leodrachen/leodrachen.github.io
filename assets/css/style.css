@@ -411,7 +411,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
         width: 60%;
     }
 
-    #api .localAccount .intro, #api .intro {
+    #api .intro, #api .localAccount .intro {
         font-family: 'Abel';
         font-size: 1.7rem;
         display: block;
