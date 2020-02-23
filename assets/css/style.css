@@ -324,7 +324,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
 }
 
 #attributeList label, #attributeList .verify label {
-    display: none;
+    display: none !important;
 }
 
 #attributeList ul li .helpLink {
