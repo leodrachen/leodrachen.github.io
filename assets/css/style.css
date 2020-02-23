@@ -382,7 +382,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
     margin-top: 30px;
 }
 
-.buttons #continue, .buttons #email_ver_but_verify, .buttons #email_ver_but_resend {
+.buttons #continue, .buttons #email_ver_but_verify, .buttons #email_ver_but_resend, .buttons #email_ver_but_edit {
     margin-bottom: 15px;
 }
 
