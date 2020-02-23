@@ -227,8 +227,8 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
 
 .signup-static-content #api {
     overflow-x: scroll;
-    height: 70%;
-    transform: translate(-50%, -35%);
+    height: 65%;
+    transform: translate(-50%, -27%);
 }
 
 .signup-static-content #api #attributeVerification {
