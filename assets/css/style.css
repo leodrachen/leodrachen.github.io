@@ -249,6 +249,11 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
     border-bottom: 2px solid #bb0000;
 }
 
+#attributeList .verificationInfoText {
+    text-align: left;
+    float: left;
+}
+
 #api h2 {
     font-size: 1.5rem;
     margin: 0;
