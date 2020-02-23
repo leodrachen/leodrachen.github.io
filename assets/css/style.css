@@ -323,7 +323,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
     list-style-type: none;
 }
 
-#attributeList label {
+#attributeList label, #attributeList .verify label {
     display: none;
 }
 
@@ -382,7 +382,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
     margin-top: 30px;
 }
 
-.buttons #continue {
+.buttons #continue, .buttons #email_ver_but_verify, .buttons #email_ver_but_resend {
     margin-bottom: 15px;
 }
 
