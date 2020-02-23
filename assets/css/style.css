@@ -415,6 +415,11 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
         transform: translate(-50%, -27%);
     }
 
+    .password #api {
+        height: 40%;
+        transform: translate(-50%, -10%);
+    }
+
     .signup-static-content #api #attributeVerification {
         width: 60%;
     }
@@ -468,6 +473,10 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
 
     .signup-static-content #api {
         height: 80%;
+    }
+
+    .password #api {
+        height: 50%;
     }
 
     #api h2 {
